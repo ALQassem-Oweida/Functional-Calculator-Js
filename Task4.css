@@ -1,0 +1,71 @@
+body {
+    background-color: #A8BF7E;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+.Main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    width: 350px;
+    height: 350px;
+    background-color: #A0D0EA;
+    gap: 10px;
+    padding: 10px;
+    box-shadow: 0px  5px rgba(128, 128, 128, 0.307);
+    margin: auto;
+    margin-top: 50px;
+
+
+
+}
+
+.ResaultArea {
+
+    width: 100%;
+    grid-column: 1/span 4;
+    background-color: #F1FBEB;
+    box-shadow: 0px  5px rgba(128, 128, 128, 0.307);
+ 
+}
+
+.NUM,
+.equal {
+    display: grid;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px  5px rgba(128, 128, 128, 0.307);
+
+}
+
+.mathgreen {
+    display: grid;
+    background-color: #EFFF93;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px  5px rgba(128, 128, 128, 0.307);
+
+
+}
+
+.Del {
+    display: grid;
+    background-color: #FBA0AB;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px  5px rgba(128, 128, 128, 0.307);
+}
+
+button{
+    width: 80px;
+    height: 100%;
+   background-color: rgba(255, 255, 255, 0);
+   font-weight: bold;
+}
+
+button:hover{
+   background-color: rgb(198, 59, 59);
+}
